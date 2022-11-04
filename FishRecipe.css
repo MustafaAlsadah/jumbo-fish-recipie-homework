@@ -70,14 +70,10 @@ body{
 }
 
 .ingredients{
-    column-count: 3;
+    /* column-count: 3; */
     column-rule: solid #A4A400;
 }
 
-.ingredients-list{
-    /* column-count: 2;
-    column-rule: solid #A4A400; */
-}
 
 .jf--img{
     border-radius: 100%;
@@ -86,7 +82,7 @@ body{
 }
 
 .method{
-    column-count: 3;
+    /* column-count: 3; */
     column-rule: solid #A4A400;
 }
 
@@ -130,6 +126,20 @@ a:link{
         padding: 20px 27%;
 
     }
+
+    .ingredients{
+        column-count: 1;
+    }
+    .method{
+        column-count: 1
+    }
+
+    .jf-header{
+        width: 90%;
+    }
+    .jf--2nd-header{
+        width: 90%;
+    }
 }
 
 @media only screen and (min-width: 768px){
@@ -146,6 +156,9 @@ a:link{
     .ingredients{
         column-count: 2;
     }
+    .method{
+        column-count: 2;
+    }
 }
 
 @media only screen and (min-width: 992px){
@@ -160,6 +173,9 @@ a:link{
     }
 
     .ingredients{
+        column-count: 3;
+    }
+    .method{
         column-count: 3;
     }
 }
